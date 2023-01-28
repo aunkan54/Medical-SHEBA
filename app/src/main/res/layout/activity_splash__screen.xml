@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/keyguard_avatar_frame_color"
+    tools:context=".Splash_Screen">
+
+    <ImageView
+        android:id="@+id/logoImageViewId"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:src="@drawable/green_leafs"
+        />
+
+    <TextView
+        android:id="@+id/logoTextViewId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:fontFamily="@font/allerta"
+        android:gravity="center_horizontal"
+        android:text="@string/bacho"
+        android:textColor="#7DB33F"
+        android:textSize="50sp"
+        android:textStyle="bold" />
+
+    <ProgressBar
+        android:id="@+id/progressBarId"
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:layout_margin="35dp"
+        android:progressBackgroundTint="@color/lockscreen_owner_info"
+        android:progressTint="#7DB33F" />
+
+</LinearLayout>
